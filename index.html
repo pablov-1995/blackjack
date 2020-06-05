@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8"/>
+  <title>Blackjack</title>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;700&display=swap" rel="stylesheet"> 
+  <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet"> 
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<html>
+  
+  <body>
+    <div id="header">
+      <img id="logo" src="img/blackjack-logo.png">
+      <h1>blackjack</h1>
+    </div>
+    <div id="rules">
+      <h2 class="button" id="rules-button">rules.</h2>
+      <ul>
+        <li>The dealer will deal two cards for you and two cards for himself at the beginning of the game.</li>
+        <li>Given your initial hand of cards, you will decide whether to ask for a new card (hit) or not to ask for any card anymore (stand). The final score of your hand will be the sum of the values of the cards in your hand when you stand or reach a score of 21.</li>
+        <li>You will only be able to stand when the score of your hand is of at least 16 points.</li>
+        <li>21 is the maximum score your hand can have. Any value higher than this will result in losing the game.</li>
+        <li>After the player stands, the dealer will deal cards to himself repeating the same process described above.</li>
+        <li>Whoever has a hand with a higher total value wins the game. The score of each card is equivalent to its rank for cards between 2 and 10; 10 points for jacks, queens or kings; 11 points for aces (or 1 if the total value of the hand is higher than 21, allowing the player to keep playing instead of losing the game).</li>
+      </ul>
+      <h2 class="button" id="play-button">play.</h2>
+      </div>
+    </div>
+  </body>
+  <a href="https://github.com/pablov-1995" target="_blank">
+    <img id="gh-pr" src="img/github-logo.png">
+  </a>
+  <script
+		src="https://code.jquery.com/jquery-3.5.1.js"
+		integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+		crossorigin="anonymous"></script>
+  <script src="main.js"></script>
+</html>
