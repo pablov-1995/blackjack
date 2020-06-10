@@ -52,11 +52,11 @@ li {
 
 #gh-pr {
     position: absolute;
-    width: 3%;
+    width: 1.5%;
     height: auto;
     opacity: 60%;
     bottom: 1%;
-    right: 2%;
+    right: 1.5%;
 }
 
 #gh-pr:hover {
