@@ -22,7 +22,7 @@ class Card {
         // Card suit
         const suitSubNode = $('<div class="card-suit">' + this.suit.symbol() + '</div>');
         suitSubNode.css('color', this.suit.color());
-        suitSubNode.appendTo(cardNode)
+        suitSubNode.appendTo(cardNode);
 
         return cardNode;
     }
