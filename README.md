@@ -1,3 +1,5 @@
 # blackjack
 
-App created as part of the Codeworks bootcamp admission challenge.
+Implementation of the blackjack game using JavaScript, HTML and CSS.
+
+https://pablov-1995.github.io/blackjack/
